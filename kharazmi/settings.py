@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-lb4e#@66njm9$156x@_y%nown4nz8#@+y_)is0xh#-4vet++o@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['galaxymath.pythonanywhere.com' , '127.0.0.1']
 
 
 # Application definition
@@ -120,6 +120,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
+STATIC_ROOT = '/home/galaxymath/galaxymath/kharazmi/static'
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR , 'media/')
 
